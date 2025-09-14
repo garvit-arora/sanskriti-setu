@@ -13,6 +13,7 @@
     "install-server": "npm install",
     "install-all": "npm run install-server && npm run install-client",
     "start": "node server/server.js",
+    "seed": "node server/seedDatabase.js",
     "heroku-postbuild": "npm run install-client && npm run build"
   },
   "dependencies": {
