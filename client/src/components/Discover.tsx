@@ -56,7 +56,21 @@ const mockMatches = [
     matchScore: 85,
     commonInterests: ['festivals', 'dance', 'food'],
     profilePicture: '👩🏽'
-  }
+  },
+  {
+    _id: '4',
+    name: 'Rahul Gandhi', 
+    culturalProfile: {
+      state: 'UP',
+      city: 'Hathras',
+      bio: 'Knows cultures of UP',
+      primaryLanguages: ['English', 'Hindi']
+    },
+    matchScore: 95,
+    commonInterests: ['festivals', 'dance', 'food'],
+    profilePicture: '👨🏾'
+  },
+  
 ];
 
 const Discover: React.FC<DiscoverProps> = ({ user, onLogout }) => {

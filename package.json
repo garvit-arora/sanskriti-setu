@@ -14,6 +14,7 @@
     "install-all": "npm run install-server && npm run install-client",
     "start": "node server/server.js",
     "seed": "node server/seedDatabase.js",
+    "test-server": "node server/test-server.js",
     "heroku-postbuild": "npm run install-client && npm run build"
   },
   "dependencies": {
